@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  background: linear-gradient(red, blue);
+  height: 300px;
+  width: 300px;
+  transform: rotate(180deg);
+}

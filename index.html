@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CognitoCare</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=draw"
+    />
+    <link rel="shortcut icon" href="images/new-logo.webp" type="image/x-icon" />
+  </head>
+  <body>
+    <i class="icon fa-solid fa-bars" id="reset-mode"></i>
+    <div class="side-bar">
+      <div class="side-bar-icons">
+        <div class="side-bar-icon">
+          <i class="icon fa-solid fa-plus" id="add"></i>
+        </div>
+        <div class="side-bar-icon" id="menu">
+          <i class="icon fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="history-container">
+        <h3 id="history">History</h3>
+      </div>
+    </div>
+    <main>
+      <header class="header">
+        <!-- greetings -->
+        <h2 class="title">Hello, there</h2>
+        <h4 class="sub-title">How Can I help you Today?</h4>
+        <p>
+          A compassionate companion for mental health support and mindfulness
+          exercises.
+        </p>
+
+        <!-- suggestion-list -->
+        <ul class="suggestion-list">
+          <li class="suggestion" id="first">
+            <h4 class="text">I am suffering from anxiety and depression</h4>
+            <i class="icon fa-regular fa-face-sad-tear"></i>
+          </li>
+          <li class="suggestion">
+            <h4 class="text">
+              I have noticed changes in my mood over the past few weeks
+            </h4>
+            <i class="icon fa-regular fa-face-frown"></i>
+          </li>
+          <li class="suggestion">
+            <h4 class="text">How to be happy in life?</h4>
+            <i class="icon fa-regular fa-face-smile"></i>
+          </li>
+          <li class="suggestion">
+            <h4 class="text">I often feel sad, empty, or hopeless</h4>
+            <i class="icon fa-regular fa-face-frown-open"></i>
+          </li>
+        </ul>
+      </header>
+
+      <div class="chat-list"></div>
+
+      <!-- typing area -->
+      <div class="typing-area">
+        <form action="#" class="typing-form">
+          <div class="input-wrapper">
+            <input
+              type="text"
+              placeholder="Ask CognitoCare"
+              class="typing-input"
+              required
+            />
+            <button class="icon fa-regular fa-paper-plane"></button>
+          </div>
+          <div class="action-buttons">
+            <i class="icon fa-regular fa-sun"></i>
+            <i class="icon fa-solid fa-trash"></i>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/5d706254bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
